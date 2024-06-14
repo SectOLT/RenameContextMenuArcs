@@ -14,6 +14,7 @@ namespace RenameContextMenuArcs
         public override string Name => "RenameContextMenuArcs";
         public override string Author => "TheJebForge";
         public override string Version => "1.1.0";
+        public override string Link => "https://github.com/TheJebForge/RenameContextMenuArcs/";
 
         public override void OnEngineInit() {
             Harmony harmony = new Harmony($"net.{Author}.{Name}");
